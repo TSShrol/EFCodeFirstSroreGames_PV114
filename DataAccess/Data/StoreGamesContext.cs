@@ -13,7 +13,9 @@ namespace DataAccess
     {
 
         public DbSet<StyleGame> StyleGames { get; set; }
+
         public DbSet<Game> Games { get; set; }
+
 
         public StoreGamesContext() {
 
